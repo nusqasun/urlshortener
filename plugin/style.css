@@ -1,0 +1,31 @@
+
+html,body{padding:0;margin:0;}
+input[type=button]{cursor:pointer;}
+.red{color:red;}
+.green{color:green;}
+.main{text-align:center;}
+.logo{font-size:35px;text-align:center;margin-bottom:40px;}
+.urlGened{font-size:30px;color:#0e860a;text-align:center;padding:10px;}
+.urlGened.red{color:red;}
+.urlGened.green{color:#0e860a;}
+.urlList {display: block;width: 100%;max-width:700px;margin:0 auto;}
+.urlList > .urlListElem {display: flex;}
+.urlList .col {flex:1;padding:5px;}
+.copyfield{cursor:pointer;white-space:nowrap;}
+.copyfield:active{text-shadow:0 0 3px rgba(0,0,0,0.5);}
+.copybtn{padding:5px;border:1px solid #aaa;border-radius:10px;}
+.longdot{overflow:hidden;text-overflow: ellipsis;}
+.urlListElem .shortlink{}
+.urlListElem .count{width:50px;}
+.createnewurl{
+  display:flex;justify-content:center;
+  padding:25px 10px;
+  background: rgb(211,227,197);
+  background: linear-gradient(0deg, rgba(211,227,197,1) 0%, rgba(182,255,183,1) 100%);
+}
+#url_field{padding:5px;font-size:17px;width:800px;}
+#url_sendbtn{
+  flex-shrink:0;width:200px;margin-left:10px;
+  padding:9px 20px;font-size:18px; background: rgb(221,107,0);border:0;border-radius:15px;color:#fff;
+  background: linear-gradient(0deg, rgba(221,107,0,1) 0%, rgba(255,214,60,1) 100%); 
+}
